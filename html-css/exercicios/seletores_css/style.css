@@ -16,8 +16,17 @@ h1 {
 
 h1#principal {
     text-align: center;
+    background-color: rgb(4, 145, 145);
+    color: aliceblue;
 }
 
 h2 {
     color: rgb(5, 20, 83);
+}
+
+.basico {
+    color: black;
+}
+.int {
+    color: rgb(73, 8, 134);
 }
