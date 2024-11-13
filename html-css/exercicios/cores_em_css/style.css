@@ -11,16 +11,22 @@ body {
 
 main {
     background-color: white;
+    /* mexer nas bordas */
     border-radius: 10px;
-    box-shadow: 5px 5px 15px #636c83 ;
+    /* efeito de luz na box */
+    box-shadow: 5px 5px 15px #636c83;
+    /* tamanho*/
     width: 600px;
+    /* preenchemento da box*/
     padding: 10px;
+    /* centralizar */
     margin: auto;
 }
 
 h1 {
     color: #2e67b1;
     text-align: center;
+    /* efeito de luz */
     text-shadow: 1px 1px 2px #214a80af ;
 }
 
