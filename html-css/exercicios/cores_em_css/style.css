@@ -6,17 +6,24 @@ body {
 
 main {
     margin: auto;
+    /*Largura*/
     width: 600px;
+    /*Preenchimento*/
     padding: 10px;
+    /*Cor de Fundo*/
     background-color: whitesmoke;
+    /*Raio da Borda*/
     border-radius: 10px;
+    /*Sombra da Caixa*/
     box-shadow: 5px 5px 15px #3a5a40;
     
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*Alinhamento de Texto*/
     text-align: center;
+    /*Tamanho da Fonte*/
     font-size: 28px;
     color: #333;
 }
