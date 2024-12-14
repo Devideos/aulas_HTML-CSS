@@ -103,9 +103,6 @@ main h1 {
     color: var(--cor5);
     font-family:var(--fonte-android);
     font-weight: normal; /*tira o negrito*/
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-    border-radius: 15px;
-    text-indent: .7em; /*recuo de texto*/
 }
 
 main h2 {
