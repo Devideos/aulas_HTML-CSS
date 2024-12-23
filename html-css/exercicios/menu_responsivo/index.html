@@ -6,8 +6,9 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clikMenu()">
@@ -30,6 +31,10 @@
 
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium vero odio deleniti, minima eos. Voluptas quas vero animi itaque, consectetur odio distinctio quisquam nobis. Quis numquam modi cupiditate error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus similique tempore quod assumenda officia ducimus, libero, autem eos cum consequuntur. Nihil blanditiis ullam ab quasi nam, reprehenderit praesentium eos.</p>
 
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi voluptas quis fugit quod recusandae maxime modi suscipit molestiae? Minus sint corrupti eaque praesentium ducimus sed expedita necessitatibus iusto quam eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos rem corporis iure molestiae accusamus alias nesciunt nihil, repudiandae, nam quo ut impedit ipsum a quis qui eligendi! Facere, possimus.
+            </p>
+
         </article>
     </main>
     <script>
@@ -40,6 +45,15 @@
                 itens.style.display = 'block'
             }
 
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+
+            }
         }
     </script>
 
