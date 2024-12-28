@@ -8,13 +8,18 @@
         div.conteiner {
             background-color: lightsalmon;
 
+            height: 300px;
             display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly; /*Controla o alinhamento dos itens no eixo principal.*/
+            align-items: center; /*Controla o alinhamento dos itens no eixo cruzado*/
+
         }
         div.item {
             background-color: aqua;
             border: 1px solid black;
 
-            flex: auto; /*Preenche tudo*/
+            
         }
     </style>
 </head>
